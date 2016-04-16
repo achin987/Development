@@ -93,13 +93,13 @@ public class TabFragment extends Fragment {
 
             switch (position){
                 case 0 :
-                    return "FAVOURITES";
+                    return "My Events";
                 case 1 :
-                    return "EVENTS";
+                    return "Explore";
                 case 2 :
-                    return "THIS WEEK";
+                    return "This Week";
                 case 3:
-                    return "NOTIFICATIONS";
+                    return "Alerts";
             }
             return null;
         }

@@ -98,7 +98,9 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_camera) {
             // Handle the camera action
         } else if (id == R.id.nav_events) {
-
+            Intent myIntent = new Intent(this, MapsActivity.class);
+            // myIntent.putExtra("key", value); //Optional parameters
+            this.startActivity(myIntent);
         } else if (id == R.id.nav_aboutus) {
 
         } else if (id == R.id.nav_apprate) {
